@@ -6,7 +6,6 @@ const sendErrorDev = (err, res) => {
         stack: err.stack
     });
 };
-
 const sendErrorProd = (err, res) => {
     if(err.isOperational){
         res.status(err.statusCode).json({
