@@ -23,7 +23,6 @@ myEmitter.on('newSale', () => {
 
 myEmitter.emit('newSale', 9);
 
-
 const server = http.createServer();
 
 server.on('request', (req, res) => {
