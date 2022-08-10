@@ -7,6 +7,7 @@ class Sales extends EventEmitter {
         super();
     }
 }
+
 const myEmitter = new Sales();
 
 myEmitter.on('newSale', () => {
@@ -22,6 +23,7 @@ myEmitter.on('newSale', () => {
 });
 
 myEmitter.emit('newSale', 9);
+
 
 const server = http.createServer();
 
