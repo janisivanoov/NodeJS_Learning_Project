@@ -4,6 +4,7 @@ const url = require('url');
 const replaceTemplate = require('./modules/replaceTemplate');
 const slugify = require('slugify');
 
+
 //blocking code
 const textIn = fs.readFile('./txt/input.txt', 'utf-8');
 console.log(textIn);
