@@ -1,7 +1,6 @@
 const fs = require('fs');
 const http = require('http');
 const url = require('url');
-
 //blocking code
 const textIn = fs.readFile('./txt/input.txt', 'utf-8');
 console.log(textIn);
