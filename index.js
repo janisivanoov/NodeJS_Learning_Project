@@ -16,7 +16,6 @@ fs.readFile('input.txt', 'utf-8', (err, data) => {
 });
 console.log('Reading file...');
 
-
 fs.readFile('start.txt', 'utf-8', (err, data) => {
     if(err) return console.log('ERROR');
         fs.readFile('${data1}.txt', 'utf-8', (err, data2) =>{
