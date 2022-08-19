@@ -9,7 +9,6 @@ const textOut = 'This is text: ${textIn}. \nCreated on ${Date.now()}';
 fs.write('./txt/output.txt', textOut);
 console.log('File written');
 
-
 //non-blocking
 fs.readFile('input.txt', 'utf-8', (err, data) => {
     console.log(data);
