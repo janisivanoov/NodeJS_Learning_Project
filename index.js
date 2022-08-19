@@ -6,7 +6,6 @@ const url = require('url');
 const textIn = fs.readFile('./txt/input.txt', 'utf-8');
 console.log(textIn);
 
-
 const textOut = 'This is text: ${textIn}. \nCreated on ${Date.now()}';
 fs.write('./txt/output.txt', textOut);
 console.log('File written');
